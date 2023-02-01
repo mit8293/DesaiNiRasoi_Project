@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  border: 5px solid black;
+  font-family: sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  width: 825px;
+  margin: 30px auto;
+}
+.name {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  background-color: rgb(206, 205, 205);
+  padding: 5px 5px;
+  margin: 0;
+  position: relative;
+}
+.name::before {
+  content: "SALE";
+  display: inline-block;
+  font-size: 15px;
+  margin: 8px;
+  padding: 5px 10px;
+  letter-spacing: 2px;
+  color: white;
+  background-color: red;
+  position: absolute;
+  top: -22px;
+  left: -30px;
+  text-align: center;
+}
+.shoe-image {
+  float: left;
+  width: 250px;
+  height: auto;
+  margin-bottom: 0;
+}
+h2 {
+  float: left;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.new-font {
+  float: right;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+.new-font::after {
+  content: "";
+  clear: both;
+}
+.ad {
+  padding-top: 60px;
+  padding-bottom: 10px;
+  font-weight: normal;
+}
+
+a:link {
+  color: black;
+  display: inline-block;
+  padding-bottom: 30px;
+}
+a:visited {
+  color: black;
+  display: inline-block;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+  color: blue;
+}
+.color {
+  background-color: black;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.color-white {
+  background-color: white;
+  border: 1px solid black;
+  /* display: inline-block; */
+}
+.color-black {
+  background-color: black;
+  /* display: inline-block; */
+}
+.color-blue {
+  background-color: blue;
+  /* display: inline-block; */
+}
+button {
+  width: 100%;
+  height: 50px;
+  padding: 0px 0px;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-bottom: 0;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  border: 3px solid black;
+  cursor: auto;
+}
+
+li {
+  list-style: square;
+  margin-left: 0;
+  padding-left: 0;
+  font-weight: normal;
+}
+ul {
+  margin-left: 0;
+  padding-left: 20px;
+}
+.price {
+  /* background-color: aqua; */
+  float: left;
+  width: 250px;
+  height: auto;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+.product-details {
+  /* background-color: blueviolet; */
+  float: right;
+  width: 250px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+.product-details::after {
+  content: "";
+  display: block;
+  clear: both;
+}
