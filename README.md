@@ -1,8 +1,6 @@
 # DesaiNiRasoi_Project
 URL : 
-<!-- link href = 
-"desainirasoi.netlify.app" rel="Host Link"
--->
+"desainirasoi.netlify.app"
 HTML Fundamentals
 CSS Fundamentals
 Practise challanges
