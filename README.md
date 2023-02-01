@@ -1,2 +1,6 @@
 # DesaiNiRasoi_Project
-desainirasoi.netlify.app
+URL : desainirasoi.netlify.app
+HTML Fundamentals
+CSS Fundamentals
+Practise challanges
+Live Project
